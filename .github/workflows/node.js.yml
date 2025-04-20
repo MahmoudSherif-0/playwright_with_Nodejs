@@ -41,7 +41,9 @@ jobs:
     - name: Install node dependencies
       run: |
         npm install
-    
+    - name: Install playwright_with_Nodejs
+      run: |
+         npx playwright install    
     - name: Run Python script
       run: |
         chcp 65001
